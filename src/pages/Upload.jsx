@@ -1,11 +1,11 @@
-import React from 'react'
+import UploadForm from "../features/upload/UploadForm";
 
-const Upload = () => {
+function Upload() {
   return (
-    <div className='text-center mt-10 text-xl'>
-      Upload Your Bill Here
+    <div className="min-h-screen bg-gray-100 p-4">
+      <UploadForm />
     </div>
-  )
+  );
 }
 
-export default Upload
+export default Upload;

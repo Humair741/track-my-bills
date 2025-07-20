@@ -1,8 +1,17 @@
-# React + Vite
+# TrakMyBills a smart receipt/bill scanner + analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TrackMyBills is a smart web app that helps users scan and analyze receipts or bills by simply uploading an image or PDF. Using OCR and AI, it extracts data, flags unusual charges, categorizes spending, and displays clear visual insights, making expense tracking effortless for individuals and small businesses.
 
-Currently, two official plugins are available:
+## Project Initialization - Phase 0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- created app using vite
+- installed react-router-dom, tailwind, axios, react icons
+- created separate folders and files for components
+
+## Phase 1
+
+### Created a basic UI component which: 
+- Allow users to upload images or PDFs
+- Show file previews (image for images, file name for PDFs)
+- Buttons to remove/reset upload
+- Basic validation
